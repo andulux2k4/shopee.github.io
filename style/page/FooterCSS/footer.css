@@ -1,0 +1,314 @@
+.content-1{
+    width: 1200px;
+    height: 800.200px;
+    margin: 60px 159.6px 0px 159.6px;
+    padding-bottom: 30px;
+    border-bottom: 0.8px solid rgba(0, 0, 0, 0.09);
+}
+
+.content-2 {
+    width: 1200px;
+    height: 760.200px;
+    margin: 60px 159.6px 10px 159.6px;
+    padding-bottom: 60px;
+}
+
+.content-3{
+    width: 1519.200px;
+    height: 836px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+
+/***content-1****/
+ .content-1 h1{
+    margin: 0px;
+ }
+
+ .content-1 h2{
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif
+ }
+
+ .content-1 p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+ }
+
+/******Content-2******/
+
+
+.content-2-danh-muc{
+    cursor: pointer;
+    height: 16.800px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    font-weight: bold
+}
+
+.content-2-box{
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    width: 1210px;
+    height: 940.400px;
+    margin: 0px -5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+.content-2-box-div1{
+    width: 232px;
+    height: 930.400px;
+    padding: 5px;
+}
+
+.content-2-box-div2{
+    width: 232px;
+}
+
+.content-2-box-div3-header a:hover{
+    color: rgb(238, 77, 45);
+}
+.content-2-box-div3-body a:hover{
+    color: rgb(238, 77, 45);
+}
+
+.content-2-box-div3-header{
+    width: 232px;
+    height: 14.400px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding: 2px 0px;
+}
+
+.content-2-box-div3-header a{
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: bold;
+}
+
+.content-2-box-div3-body{
+    width: 232px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.content-2-box-div3-body a{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.content-2-box-div3-body div {
+    margin-bottom: 3px;
+}
+
+
+/*****content-3*****/
+
+.content-3-1{
+    width: 1200px;
+    height: 525.600px;
+    font-size: 12px;
+    background-color: rgb(251, 251, 251);
+    margin: 0px 159.600px;
+}
+
+.content-3-1-body{
+    height: 416.800px;
+    padding: 5px;
+    margin: 0px -5px;
+    display: flex;
+}
+
+.ul-content-3-1-body{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px
+}
+
+.ul-content-3-1-body li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ul-content-3-1-body li a{
+    display: flex;
+    color: rgba(0, 0, 0, 0.57);
+    font-size: 12px;
+}
+
+.ul-content-3-1-body li a:hover{
+    color: rgb(238, 77, 45);
+}
+
+.ul-content-3-1-body-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.ul-content-3-1-body-wrap li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 4px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+}
+
+.ul-content-3-1-body-icon{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px
+}
+
+.ul-content-3-1-body-icon li {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.ul-content-3-1-body-icon li a{
+    color: rgba(0, 0, 0, 0.57);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.ul-content-3-1-body-icon li a span{
+    margin-left: 8px;
+}
+
+
+.content-3-1-body-div2{
+    width: 240px;
+    height: 14.400px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+    font-size: 13.5px;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.content-3-1-foot{
+    height: 18px;
+    border-top: 0.8px solid rgba(0, 0, 0, 0.09);
+    padding: 40px 0px;
+    display: flex;
+}
+
+.content-3-2{
+    width: 1200px;
+    height: 231.400px;
+    padding-top: 42px;
+    padding-bottom: 37px;
+    background-color: rgb(245, 245, 245);
+    margin: 0px 159.600px;
+}
+
+.div-QR{
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    height: 92px;
+    margin-bottom: 16px;
+}
+
+.QR-img{
+    width: 100px;
+}
+
+.QR-img img{
+    padding: 4px;
+    margin-right: 12px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+}
+
+.zLPzwH{
+    display: flex;
+    flex-direction: column;
+}
+
+.zLPzwH a{
+    height: 16px;
+    padding: 4px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+}
+
+.DmgODQ{
+    width: 1200px;
+    height: 18px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PGHx77{
+    margin-right: 25px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+}
+
+._9RQPzN{
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.HKksoM{
+    padding: 0px 5px;
+    border-right: 0.8px solid rgba(0, 0, 0, 0.43);
+}
+
+.HKksoM a{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+.EWPRwa{
+    height: 14.400px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+.d56atc{
+    padding: 0px 25px;
+    border-right: 0.8px solid rgba(0, 0, 0, 0.09);
+}
+
+.d56atc a{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+}
+
+.BV2E6Y{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 12px;
+    text-align: center;
+}

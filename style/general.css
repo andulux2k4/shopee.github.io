@@ -1,0 +1,63 @@
+/*===========Header==========*/
+
+@import url(page/HeaderCSS/header-nav-bar.css);
+@import url(page/HeaderCSS/header-search-bar.css);
+
+/*===========Body==========*/
+
+@import url(page/BodyCSS/banner.css);
+@import url(page/BodyCSS/carousel-banner.css);
+@import url(page/BodyCSS/main-body/main-body.css);
+@import url(page/BodyCSS/main-body/contain/top-search.css);
+@import url(page/BodyCSS/main-body/contain/recommend-product.css);
+
+
+/*===========Footer==========*/
+
+@import url(page/FooterCSS/footer.css);
+
+/*===================================*/
+
+@font-face {
+    font-family: shopeeFont;
+    src: url(ShopeeDisplay-Light.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: top;
+    width: 1519.2px;
+    height: 5857.4px;
+    margin: 0 0 0 0;
+    font-family: shopeeFont;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Full-main-homepage{
+    width: 1519.2px;
+    height: 3292.3px;
+    margin-bottom: 35px;
+}
+
+.Header{
+    height: 100dvh;
+    font-size: 14px;
+    position: sticky;
+    background-color: rgb(238, 77, 45);
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+footer{
+    width: 1519.200px;
+    height: 3148.200px;
+}

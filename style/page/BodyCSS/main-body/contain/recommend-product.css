@@ -1,0 +1,255 @@
+.recommend-products {
+    height: 1090.8px;
+}
+
+.recommend-products-Header{
+    height : 60.800px;
+}
+
+.recommend-products-Body{
+    height: 1025px;
+    padding-top: 5px;
+    background-color: #f5f4f4;
+}
+
+/******Header********/
+.recommend-products-Header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recommend-products-Header li {
+    width: 1108px;
+    height: 30px;
+    padding: 15px 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend-products-Header-Border{
+    width: 1200px;
+    height: 4px;
+    background-color: rgb(238, 77, 45);
+    position: absolute;
+    left: 160px;
+    bottom: -1720px;
+}
+
+.rph-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(238, 77, 45);
+}
+
+/******BODY*******/
+
+.ul-recomend-products-body{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.ul-recomend-products-body li {
+    width: 190px;
+    height: 294px;
+    padding: 5px;
+}
+
+.img-li-rcp{
+    width: 186.800px;
+    height: 186.800px;
+}
+
+.img-li-rcp img{
+    width: 186.800px;
+    height: 186.800px;
+}
+
+.img-li-rcp-undertag{
+    position: absolute;
+}
+
+.yeuthich-img {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -3px;
+}
+
+.yeuthich-img img{
+    width: 50px;
+    height: 20px;
+}
+
+.container-sale-img-li-rcp{
+    width: 186.6px;
+    height: 18px;
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    align-items: end;
+}
+
+.sale-img-li-rcp{
+    width: 28.025px;
+    height: 14px;
+    padding: 2px 4px;
+    background-color: rgb(255, 233, 122);
+    color: rgb(236, 56, 20);
+    font-size: 12px;
+}
+
+.content-rcp{
+    width: 170.800px;
+    height: 88px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.head-content-rcp{
+    width: 170.800px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.head-content-rcp p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+}
+
+.border-content-rcp{
+    width: 170.800px;
+    height: 16px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+
+.body-content-rcp{
+    width: 170.800px;
+    height: 20px;
+    display: flex;
+}
+
+.body-content-rcp-price{
+    width: 80.088px;
+    height: 20px;
+    color: rgb(238, 77, 45);
+}
+
+.body-content-rcp-amount{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.container-sale-icon-rp{
+    width: 68.663px;
+    height: 16px;
+    display: flex;
+    
+}
+
+.sale-icon-rp{
+    width: 55.663px;
+    height: 16px;
+    padding: 0 1px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash-sale-icon-rp{
+    width: 55.663px;
+    height: 14px;
+    padding: 0 1px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(238, 77, 45);
+    border-top: 0.5px solid rgb(238, 77, 45);
+}
+
+.see-more-button{
+    width: 1200px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-more-button a{
+    width: 390.00px;
+    height: 40.00px;
+    border: 0.8px solid rgba(0, 0, 0, 0.09);
+    box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: rgb(85, 85, 85);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.see-more-button a:hover {
+    background-color: #f5f4f4;
+}
+
+.under-tag{
+    width: 189.400px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    opacity: 0;
+    color: white;
+    font-size: 14px;
+    transition: 200ms ease;
+    z-index: 10;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+.ul-recomend-products-body li:hover .under-tag{
+    background-color: rgb(238, 77, 45);
+    opacity: 1;
+}
+
+.big-rcp-container{
+    transition: 200ms ease;
+}
+
+.ul-recomend-products-body li:hover .big-rcp-container{
+    border: 1px solid rgb(238, 77, 45);;
+}

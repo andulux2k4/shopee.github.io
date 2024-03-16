@@ -1,0 +1,44 @@
+/*========================== home category list ========================*/
+
+@import url(contain/home-catagory.css);
+
+/*========================== content flash sale ========================*/
+
+@import url(contain/flash-sale.css);
+
+/*========================== banner sale  ========================*/
+
+@import url(contain/banner-sale.css);
+
+/*========================== home mall section ========================*/
+
+@import url(contain/mall-section.css);
+
+/*========================== recommend products ========================*/
+
+@import url(contain/recommend-product.css);
+
+/*========================== home page edit size ========================*/
+.main-page {
+    width: 1200px;
+    height: 2919.3px;
+    margin: 0px 159.6px;
+    padding: 0;
+    background-color: white;
+}
+
+.top-border {
+    background-color: #f5f4f4;
+    z-index: 3;
+    height: 20px;
+}
+
+.background-main-page {
+    background-color: #f5f4f4;
+    border-bottom: 4px solid rgb(238, 77, 45);
+}
+
+.section-slection-main-page {
+    width: 1200px;
+    height: 3869.4px;
+}

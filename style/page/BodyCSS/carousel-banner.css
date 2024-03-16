@@ -1,0 +1,131 @@
+
+.moving-banner li img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.carousel-track-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style: none;
+}
+
+.banner-move-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    list-style: none;
+    transition: all 500ms;
+}
+
+.banner-img {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.current-img {
+    opacity: 1;
+}
+
+
+.carousel-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.carousel-button :hover {
+    opacity: 1;
+}
+
+.carousel-button img {
+    width: 20px;
+}
+
+
+.button-container-left{
+    width: 35px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 230px;
+    z-index: 6;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+.button-container-right{
+    width: 35px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    z-index: 6;
+    right: 36.9%;
+    top: 230px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+
+.dot-nav {
+    width: 796.662px;
+    height: 9.6px;
+    top: 358px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.dot-nav .current-img{
+    background-color: rgb(238, 77, 45)
+}
+
+.carousel-dot {
+    border: 0;
+    border-radius: 50%;
+    padding: 0px;
+    width: 9.5px;
+    height: 9.5px;
+    margin: 0px 5px;
+    border: 1px solid hsla(0,0%,53.7%,.4);
+    background-color: hsla(0,0%,100%,.4);
+    cursor: pointer;
+}
+
+.is-hidden {
+    display: none;
+}

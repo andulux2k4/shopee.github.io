@@ -1,0 +1,137 @@
+.header-with-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 59px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    margin: 0px 159.6px;
+}
+
+/*======================Shopee Logo =======================*/
+
+.link-main-page {
+    height: 59px;
+    width: 162px;
+    padding: 0px 40px 0px 0px;
+    vertical-align: top;
+}
+
+.link-main-page div {
+    margin: -2px;
+    padding: 2px;
+}
+
+
+.link-main-page svg {
+    width: 162px;
+    height: 50px;
+    margin-top: -2px;
+}
+
+/*=======================Search Bar==========================*/
+
+.input-and-section-container { 
+    width: 840px;
+    height: 59px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-container {
+    padding: 3px;   
+    width: 834px;
+    height: 34px;
+    display: flex;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+
+.form-input {
+    width: 754px;
+    height: 34px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 754px;
+    height: 34px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 34px;
+    padding: 0px 15px;
+    border-radius: 2px;
+    border: 0px;
+    background-color: rgb(238, 77, 45)
+    
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    margin: 0px 8px;
+}
+
+/*=======================Section==========================*/
+
+.section-container{
+    display: flex;
+    align-items: center;
+    width: 840px;
+    height: 27px;
+    font-size: 13px;
+}
+
+.section-container .section {
+    margin: 7px 0px;
+    margin-left: 13px;
+}
+
+
+
+/*=======================Shopping Cart=======================*/
+
+
+.shopping-cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 54px;
+    margin: 0px 10px;
+    padding-bottom: 5px;
+}
+
+.shopping-cart-icon-container {
+    width: 41px;
+    height: 26px;
+    padding: 10px 0px;
+}
+
+.shopping-cart-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-cart-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
